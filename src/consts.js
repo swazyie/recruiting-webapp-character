@@ -7,6 +7,17 @@ export const ATTRIBUTE_LIST = [
     'Charisma',
 ];
 
+export const INITIAL_ATTRIBUTE_VALUE = 10;
+export const MAX_ATTRIBUTE_TOTAL = 70;
+export const MAX_ATTRIBUTE_VALUE = 20;
+export const INITIAL_TOTAL_ALL_ATTRIBUTES = 60;
+
+
+export const SKILL_DESCRIPTION ="A character's ability to perform a specific action";
+export const ATTRIBUTE_MODIFIER_DESCRIPTION ="calculated using the related Attribute, this value affects a character's skills";
+export const ATTRIBUTES_DESCRIPTION = "This represents a character's raw abilities";
+
+
 export const CLASS_LIST = {
     'Barbarian': {
         'Strength': 14,
