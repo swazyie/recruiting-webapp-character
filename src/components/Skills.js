@@ -15,7 +15,7 @@ const Skills = () => {
 
   const intelligenceModifier = calculateModifier(attributes.Intelligence);
   const totalPoints = 10 + (4 * intelligenceModifier);
-  const pointsSpent = [...Object.values(skills)];
+  const pointsSpent = Object.values(skills).reduce((acc, value) => acc + value, 0);
   const pointsRemaining = totalPoints - pointsSpent;
 
   return (
